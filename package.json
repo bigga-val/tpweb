@@ -1,16 +1,15 @@
 {
-  "name": "retravail",
+"name": "retravail",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "node-sass": "^4.12.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "node-sass static/sass/main static/style -w"
+    "compile-sass": "node-sass static/sass/main.scss static/style.css -w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }

@@ -1,0 +1,40 @@
+nav{
+    height: 100vh;
+    background: linear-gradient(to right top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('img/back.JPG') top;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    align-items:flex-top;
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: None;
+    margin-right: 100px;
+}
+ul li{
+    margin-left: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Arial", "Adobe Heiti Std R", sans serif;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+#h{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Arial", "Adobe Heiti Std R", sans serif;
+}
+
+
+#titre{
+    margin: 150px;
+    color: white;
+}
