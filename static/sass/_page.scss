@@ -1,6 +1,6 @@
 nav{
     height: 100vh;
-    background: linear-gradient(to right top, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url('img/back.JPG') top;
+    background: linear-gradient(to right top, rgba(40, 180, 133, 0.8), rgba(126, 213, 111, 0.8)), url('img/back.JPG') top;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     align-items:flex-top;
     }
@@ -14,7 +14,7 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style-type: None;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 ul li{
     margin-left: 5px;
