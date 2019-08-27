@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
-from home.views import homepage
+from home import views as v
 
 urlpatterns = [
     path('', views.index),
-    path('sondage/', homepage),
+    path('sondage/', v.homepage),
 ]
