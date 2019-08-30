@@ -1,7 +1,7 @@
 nav {
-  height: 100vh;
+  height: 50vh;
   background: linear-gradient(to right top, rgba(40, 180, 133, 0.8), rgba(126, 213, 111, 0.8)), url("img/back.JPG") top;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 70%);
   align-items: flex-top; }
 
 header {
@@ -30,8 +30,34 @@ h1 {
 #h {
   display: flex;
   justify-content: space-around;
-  font-family: "Arial", "Adobe Heiti Std R", sans serif; }
+  font-family: "Arial", "Adobe Heiti Std R", sans serif;
+  margin-bottom: 100px; }
 
 #titre {
-  margin: 150px;
+  margin: 25px;
   color: white; }
+
+.block-footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(40, 180, 133, 0.8);
+  color: white; }
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  width: 70%;
+  margin: 0 auto;
+  border: 5px solid rgba(40, 180, 133, 0.8);
+  box-shadow: -2px -2px 5px gray inset; }
+
+.btn-link {
+  text-decoration: None;
+  color: black;
+  background-color: black;
+  border: 0px; }
+
+.btn-link a {
+  color: rgba(40, 180, 133, 0.8);
+  text-decoration: None; }

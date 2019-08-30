@@ -1,29 +1,24 @@
-{% load static %}
-<!Doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>retravail</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
-</head>
-<body>
-    <nav>
-        <header>
-            <h3>TP WEB</h3>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </header>
-        <div id="titre">
-            <h1>PROGRAMMATION PYTHON</h1>
-            <h3 id="h">Django</h3>
-        </div>
-    </nav>
+{% extends 'indexe.html' %}
 
-</body>
-</html>
+{% block header %}
+    {% include 'header.html' %}
+{% endblock %}
+{% block content %}
+    <section class="section-content">
+
+        <div class="content">
+            <div class="btn-option">
+                <button class="btn-link"><a href="/sondage/">Commencer le sondage</a></button>
+            </div>
+            <div class="sub-content">
+                {% for sond in sondage %}
+                     <p> {{ sond.question }} </p>
+                {% endfor %}
+            </div>
+        </div>
+        <a href="home/">bonjour le monde</a>
+    </section>
+{% endblock %}
+{% block footer %}
+    {% include 'footer.html' %}
+{% endblock %}

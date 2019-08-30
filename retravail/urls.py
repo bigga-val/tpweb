@@ -18,7 +18,10 @@ from django.urls import path
 from . import views
 from home import views as v
 
+
 urlpatterns = [
     path('', views.index),
     path('sondage/', v.homepage),
+    path('home/', v.home),
+
 ]
