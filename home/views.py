@@ -9,3 +9,10 @@ def homepage(request):
 
 def home(request):
     return render(request, 'template_home/home_index.html')
+
+
+def about(request):
+    return render(request, 'template_home/about.html')
+
+def contact(request):
+    return render(request, "template_home/contact.html")
